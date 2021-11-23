@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- 以下为采用本地仓库, 如果没有应删除或注释 -->
+<remove-project name="android_vendor_gapps" />
+<remove-project name="android_frameworks_base" />
+<remove-project name="android_packages_apps_Settings" />
+<remove-project name="android_device_xiaomi_sm6150-common" />
+<remove-project name="android_device_xiaomi_davinci" />
+<remove-project name="android_kernel_xiaomi_sm6150" />
+<remove-project name="proprietary_vendor_xiaomi" />
+
+</manifest>
