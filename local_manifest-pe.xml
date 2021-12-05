@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="lineage"
+		    fetch="https://github.com/LineageOS"
+		    revision="lineage-19.0" />
+
+	<remote name="cuzpixel"
+		    fetch="https://github.com/aosp-davinci"
+		    revision="12.0" />
+
+	<!-- device repos -->
+	<project path="device/xiaomi/davinci" name="android_device_xiaomi_davinci" remote="cuzpixel" revision="12.0-pe" />
+	<project path="kernel/xiaomi/davinci" name="android_kernel_xiaomi_sm6150" remote="cuzpixel" revision="12.0-wip" clone-depth="1" />
+	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="cuzpixel" revision="12.0-pe" clone-depth="1" />
+	<project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="cuzpixel" />
+	<project path="vendor/xiaomi-firmware" name="android_vendor_xiaomi-firmware" remote="gitlab" clone-depth="1" />
+
+	<!-- hardware repos -->
+	<project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cuzpixel" />
+
+	<!-- packages repos -->
+	<project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="cuzpixel" />
+	
+	<!-- patches repos -->
+	<project path="patches" name="patches" remote="cuzpixel" />
+
+</manifest>
