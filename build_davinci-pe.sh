@@ -44,7 +44,7 @@ function envsetup() {
 }
 
 function buildbacon() {
-    info "正在进行额外修补..."
+    info "开始构建系统... "
     mka bacon -j16
     #mka vintf -j16
 }
@@ -58,9 +58,6 @@ if [[ $choice_sync == *"y"* ]]; then
     sync_repo
     success "最新源码同步完成！" 1>&2
     apply_patches
-    success "开始构建系统... " 1>&2
-else
-    success "开始构建系统... " 1>&2
 fi
 
 envsetup
