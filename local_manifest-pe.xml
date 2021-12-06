@@ -23,6 +23,6 @@
 	<project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="cuzpixel" />
 	
 	<!-- patches repos -->
-	<project path="patches" name="patches" remote="cuzpixel" />
+	<project path="patches" name="patches" remote="cuzpixel" revision="12.0-pe" />
 
 </manifest>
